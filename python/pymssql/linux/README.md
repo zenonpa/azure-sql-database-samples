@@ -17,7 +17,7 @@ Open your terminal and navigate to a directory where you plan on creating your p
 	sudo apt-get --assume-yes update
 	sudo apt-get --assume-yes install freetds-dev freetds-bin
 	sudo apt-get --assume-yes install python-dev python-pip
-	sudo pip install pymssql
+	sudo pip install pymssql==2.1.1
 
 
 ## Create a database and retrieve your connection string
